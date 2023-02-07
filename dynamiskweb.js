@@ -9,14 +9,15 @@ const person = {
   console.log(person['lastName']); // Udskriver "Madsen"
   console.log(person.age); // Udskriver 30
   console.log(person['job']); // Udskriver "Udvikler"
+
   //opgave 2
   copiedPerson.isMarried = true;
   copiedPerson.hobbies = ['læse', 'rejse', 'programmering'];
   copiedPerson.address = {
-    street: '123 Main St',
-    city: 'San Francisco',
-    state: 'CA',
-    zip: '94105'
+    street: '123 crackerstreet',
+    city: 'JavaCity',
+    state: 'JavaState',
+    zip: '42069'
   };
   console.log('Address:');
 console.log(copiedPerson.address.street);
