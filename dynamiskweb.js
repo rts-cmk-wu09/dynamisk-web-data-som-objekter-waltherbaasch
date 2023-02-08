@@ -46,7 +46,7 @@ let fodboldspillere = [
     ]
   },
   {
-    navn: "Cristiano Ronaldo",
+    navn: "Karim Benzema",
     alder: 37,
     maal: [
       {
@@ -80,3 +80,18 @@ let fodboldspillere = [
   
 ];
 
+// andet eksempel
+
+//let sportsstjerner = {
+ // sportsgrene: [{
+   //   fodbold: [{
+   //       herre: ["David Beckham", "Simon Kjær", "Karim Benzema", "Pele"],
+    //      kvinder: ["Alisha Lehmann", "Lulu Ys Covic"],
+    //      andet: {
+    //          genderfluid: ["hgjhghj", "gagds", "hjk"],
+  //        }
+//      },
+//   ],
+ // },
+//],
+//};
