@@ -52,7 +52,7 @@ let fodboldspillere = [
     
   ];
   
-  // andet eksempel
+  // eksempel
   
   //let sportsstjerner = {
    // sportsgrene: [{
@@ -67,3 +67,57 @@ let fodboldspillere = [
    // },
   //],
   //};
+
+  // andet eksempel 
+  //let omMig = {
+   // påklædning: ["Sokker", "bukser", "trøje", "cap", "underbukser", "undertrøje"],
+    //persondata: {
+      //cpr: "123456-7890",
+      //navne: {
+        //fornavn: "Troels",
+        //efternavn: "Rasmussen",
+      //},
+     // adresse: "Kærsangervej XX",
+     // postnummer: 4300,
+     // telefon: "32-32-32-32",
+   // },
+   // cevilstand: "fanget!",
+   // børn: [
+     // {
+       // navn: "Freja",
+       // køn: "Pige",
+       // vaccineret: true,
+       // veninder: ["Laura", "Anna", "Leonora"],
+     // },
+     // {
+       // navn: "Carl-Emil",
+       // køn: "dreng",
+      //  vaccineret: true,
+        //venner: ["Morris", "August", "Luca"],
+     // },
+   // ],
+   // pensionsalder: undefined,
+ // };
+  
+// let heading = document.querySelector(".heading");
+// let footer = document.querySelector("footer");
+// let body = document.querySelector("body");
+
+// heading.textContent = `
+// ${omMig.persondata.navne.fornavn}
+// ${omMig.persondata.navne.efternavn}
+// `;
+
+// footer.innerHTML = `
+  // <address> 
+    // Adresse: ${omMig.persondata.adresse} 
+    // Postnummer: ${omMig.persondata.postnummer}
+  // </address>
+// `;
+
+// let paaklaedningsliste = document.createElement("ul");
+// omMig.påklædning.forEach((element) => {
+  // paaklaedningsliste.innerHTML += `<li>${element}</li>`;
+// });
+// body.append(paaklaedningsliste);
+  
