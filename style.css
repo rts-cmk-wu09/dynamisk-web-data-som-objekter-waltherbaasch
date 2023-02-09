@@ -1,0 +1,16 @@
+
+  section {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color: grey;
+    border-radius: 10px;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  p, li {
+    margin-bottom: 5px;
+  }
