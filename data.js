@@ -51,10 +51,30 @@ let fodboldspillere = [
     }
     
   ];
-  document.querySelector('#datatest').innerHTML = ` <section>  
-  <p> navn: $ {fodboldspillere.sæson.antalMaal.antalAssist}</p>
+
+  document.querySelector('#datatest').innerHTML = `
+  ${fodboldspillere.map(spiller => `
+    <section>
+      <h2>${spiller.navn}</h2>
+      <p>Alder: ${spiller.alder}</p>
+      <h3>Maal</h3>
+      <ul>
+        ${spiller.maal.map(maal => `
+          <li>
+            Sæson: ${maal.sæson}<br>
+            Antal Maal: ${maal.antalMaal}<br>
+            Antal Assist: ${maal.antalAssist}
+          </li>
+        `).join('')}
+      </ul>
+    </section>
+  `).join('')}
+`;
+
+
+
   
-  </section> `
+  //</section> `
   // eksempel
   
   //let sportsstjerner = {
