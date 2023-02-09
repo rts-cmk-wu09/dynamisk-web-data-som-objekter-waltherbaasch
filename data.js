@@ -51,7 +51,10 @@ let fodboldspillere = [
     }
     
   ];
+  document.querySelector('#datatest').innerHTML = ` <section>  
+  <p> navn: $ {fodboldspillere.sæson.antalMaal.antalAssist}</p>
   
+  </section> `
   // eksempel
   
   //let sportsstjerner = {
